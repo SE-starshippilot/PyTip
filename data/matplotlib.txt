@@ -1,0 +1,234 @@
+matplotlib.pyplot.plot()
+Plot y versus x as lines and/or markers.
+matplotlib.pyplot.figure()
+Create a new figure, or activate an existing figure.
+matplotlib.pyplot.fignum_exists()
+Return whether the figure with the given id exists.
+matplotlib.pyplot.axes()
+Add an Axes to the current figure and make it the current Axes.
+matplotlib.pyplot.subplot()
+Add an Axes to the current figure or retrieve an existing Axes
+matplotlib.pyplot.subplot2grid()
+Create a subplot at a specific location inside a regular grid.
+matplotlib.pyplot.scatter()
+A scatter plot of y vs. x with varying marker size and/or color.
+matplotlib.pyplot.bar()
+Make a bar plot.
+matplotlib.axes.Axes.plot
+Plot y versus x as lines and/or markers.
+matplotlib.axes.Axes.scatter
+A scatter plot of y vs. x with varying marker size and/or color.
+matplotlib.pyplot.cla()
+Clear the current axes.
+matplotlib.pyplot.clf()
+Clear the current figure.
+matplotlib.pyplot.close()
+Close a figure window.
+matplotlib.pyplot.errorbar()
+Plot y versus x as lines and/or markers with attached errorbars.
+matplotlib.pyplot.step()
+Make a step plot.
+matplotlib.pyplot.eventplot()
+Plot identical parallel lines at the given positions.
+matplotlib.pyplot.pie()
+Plot a pie chart.
+matplotlib.pyplot.bar()
+Make a bar plot.
+matplotlib.pyplot.barh()
+Make a horizontal bar plot.
+matplotlib.pyplot.bar_label()
+Label a bar plot.
+matplotlib.pyplot.stem()
+Create a stem plot.
+matplotlib.pyplot.hlines()
+Plot horizontal lines at each y from xmin to xmax.
+matplotlib.pyplot.polar()
+Make a polar plot
+matplotlib.pyplot.fill()
+Plot filled polygons.
+matplotlib.pyplot.axline()
+Add an infinitely long straight line.
+matplotlib.pyplot.acorr()
+Plot the autocorrelation of x.
+matplotlib.pyplot.hist()
+Compute and plot a histogram.
+matplotlib.pyplot.hist2d()
+Make a 2D histogram plot.
+matplotlib.pyplot.stairs()
+A stepwise constant function as a line with bounding edges or a filled plot.
+matplotlib.pyplot.csd()
+Plot the cross-spectral density.
+matplotlib.pyplot.angle_spectrum()
+Plot the angle spectrum.
+matplotlib.pyplot.ecdf()
+Compute and plot the empirical cumulative distribution function of x.
+matplotlib.pyplot.boxplot()
+Draw a box and whisker plot.
+matplotlib.pyplot.hexbin()
+Make a 2D hexagonal binning plot of points x, y.
+matplotlib.pyplot.clabel()
+Label a contour plot.
+matplotlib.pyplot.contour()
+Plot contour lines.
+matplotlib.pyplot.contourf()
+Plot filled contours.
+matplotlib.pyplot.imshow()
+Display data as an image, i.e., on a 2D regular raster.
+matplotlib.pyplot.matshow()
+Display an array as a matrix in a new figure window.
+matplotlib.pyplot.pcolor()
+Create a pseudocolor plot with a non-regular rectangular grid.
+matplotlib.pyplot.pcolormesh()
+Create a pseudocolor plot with a non-regular rectangular grid.
+matplotlib.pyplot.spy()
+Plot the sparsity pattern of a 2D array.
+matplotlib.pyplot.figimage()
+Add a non-resampled image to the figure.
+matplotlib.pyplot.triplot()
+Draw an unstructured triangular grid as lines and/or markers.
+matplotlib.pyplot.tripcolor()
+Create a pseudocolor plot of an unstructured triangular grid.
+matplotlib.pyplot.tricontour()
+Draw contour lines on an unstructured triangular grid.
+matplotlib.pyplot.tricontourf()
+Draw contour regions on an unstructured triangular grid.
+matplotlib.pyplot.annotate()
+Annotate the point xy with text text.
+matplotlib.pyplot.text()
+Add text to the Axes.
+matplotlib.pyplot.figtext()
+Add text to figure.
+matplotlib.pyplot.table()
+Add a table to an Axes.
+matplotlib.pyplot.arrow()
+Add an arrow to the Axes.
+matplotlib.pyplot.figlegend()
+Place a legend on the figure.
+matplotlib.pyplot.legend()
+Place a legend on the Axes.
+matplotlib.pyplot.barbs()
+Plot a 2D field of barbs.
+matplotlib.pyplot.quiver()
+Plot a 2D field of arrows.
+matplotlib.pyplot.quiverkey()
+Add a key to a quiver plot.
+matplotlib.pyplot.streamplot()
+Draw streamlines of a vector flow.
+matplotlib.pyplot.autoscale()
+Autoscale the axis view to the data (toggle).
+matplotlib.pyplot.axis()
+Convenience method to get or set some axis properties.
+matplotlib.pyplot.box()
+Turn the axes box on or off on the current axes.
+matplotlib.pyplot.grid()
+Configure the grid lines.
+matplotlib.pyplot.locator_params()
+Control behavior of major tick locators.
+matplotlib.pyplot.minorticks_off()
+Remove minor ticks from the Axes.
+matplotlib.pyplot.minorticks_on()
+Display minor ticks on the Axes.
+matplotlib.pyplot.rgrids()
+Get or set the radial gridlines on the current polar plot.
+matplotlib.pyplot.thetagrids()
+Get or set the theta gridlines on the current polar plot.
+matplotlib.pyplot.tick_params()
+Change the appearance of ticks, tick labels, and gridlines.
+matplotlib.pyplot.ticklabel_format()
+Configure the ScalarFormatter used by default for linear Axes.
+matplotlib.pyplot.xlabel()
+Set the label for the x-axis.
+matplotlib.pyplot.xlim()
+Get or set the x limits of the current axes.
+matplotlib.pyplot.xscale()
+Set the xaxis' scale.
+matplotlib.pyplot.xticks()
+Get or set the current tick locations and labels of the x-axis.
+matplotlib.pyplot.ylabel()
+Set the label for the y-axis.
+matplotlib.pyplot.ylim()
+Get or set the y limits of the current axes.
+matplotlib.pyplot.yscale()
+Set the yaxis' scale.
+matplotlib.pyplot.yticks()
+Get or set the current tick locations and labels of the y-axis.
+matplotlib.pyplot.suptitle()
+Add a centered suptitle to the figure.
+matplotlib.pyplot.title()
+Set a title for the Axes.
+matplotlib.pyplot.margins()
+Set or retrieve autoscaling margins.
+matplotlib.pyplot.subplots_adjust()
+Adjust the subplot layout parameters.
+matplotlib.pyplot.subplot_tool()
+Launch a subplot tool window for a figure.
+matplotlib.pyplot.tight_layout()
+Adjust the padding between and around subplots.
+matplotlib.pyplot.clim()
+Set the color limits of the current image.
+matplotlib.pyplot.colorbar()
+Add a colorbar to a plot.
+matplotlib.pyplot.gci()
+Get the current colorable artist.
+matplotlib.pyplot.sci()
+Set the current image.
+matplotlib.pyplot.get_cmap()
+Get a colormap instance, defaulting to rc values if name is None.
+matplotlib.pyplot.set_cmap()
+et the default colormap, and applies it to the current image if any.
+matplotlib.pyplot.imread()
+Read an image from a file into an array.
+matplotlib.pyplot.imsave()
+Colormap and save an array as an image file.
+matplotlib.pyplot.rc()
+Set the current rcParams.
+matplotlib.pyplot.rc_context()
+Return a context manager for temporarily changing rcParams.
+matplotlib.pyplot.rcdefaults()
+Restore the rcParams from Matplotlib's internal default style.
+matplotlib.pyplot.draw()
+Redraw the current figure.
+matplotlib.pyplot.draw_if_interactive()
+Redraw the current figure if in interactive mode.
+matplotlib.pyplot.ioff()
+Disable interactive mode.
+matplotlib.pyplot.ion()
+Enable interactive mode.
+matplotlib.pyplot.install_repl_displayhook()
+Connect to the display hook of the current shell.
+matplotlib.pyplot.isinteractive()
+Return whether plots are updated after every plotting command.
+matplotlib.pyplot.pause()
+Run the GUI event loop for interval seconds.
+matplotlib.pyplot.savefig()
+Save the current figure.
+matplotlib.pyplot.show()
+Display all open figures.
+matplotlib.pyplot.switch_backend()
+Set the pyplot backend.
+matplotlib.pyplot.uninstall_repl_displayhook()
+Disconnect from the display hook of the current shell.
+matplotlib.pyplot.connect()
+Bind function func to event s.
+matplotlib.pyplot.disconnect()
+Disconnect the callback with id cid.
+matplotlib.pyplot.findobj()
+Find artist objects.
+matplotlib.pyplot.get()
+Return the value of an Artist's property, or print all of them.
+matplotlib.pyplot.getp()
+Return the value of an Artist's property, or print all of them.
+matplotlib.pyplot.get_current_fig_manager()
+Return the figure manager of the current figure.
+matplotlib.pyplot.ginput()
+Blocking call to interact with a figure. Wait until the user clicks n times on the figure, and return the coordinates of each click in a list.
+matplotlib.pyplot.new_figure_manager()
+Create a new figure manager instance.
+matplotlib.pyplot.set_loglevel()
+Configure Matplotlib's logging levels.
+matplotlib.pyplot.setp()
+Set one or more properties on an Artist, or list allowed values.
+matplotlib.pyplot.waitforbuttonpress()
+Blocking call to interact with the figure.
+matplotlib.pyplot.xkcd()
+Turn on xkcd sketch-style drawing mode.
