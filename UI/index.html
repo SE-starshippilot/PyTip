@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Search Page</title>
+</head>
+<body>
+  <input type="text" id="searchInput" placeholder="Enter your query">
+  <button onclick="startSending()">Start Sending</button>
+  <script>
+    let intervalId;
+
+    function sendDataToServer() {
+      const query = document.getElementById('searchInput').value;
+      const xhr = new XMLHttpRequest();
+      xhr.open("POST", "http://localhost:8080", true);
+      xhr.setRequestHeader("Content-Type", "application/json");
+      xhr.send(JSON.stringify({ query: query }));
+    }
+
+    function startSending() {
+      intervalId = setInterval(sendDataToServer, 1000); // Send data every 1 second
+    }
+  </script>
+</body>
+</html>
