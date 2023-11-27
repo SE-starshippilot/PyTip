@@ -1,0 +1,646 @@
+[
+    {
+        "function name": "linalg.multi_dot()",
+        "function description": "Compute the dot product of two or more arrays in a single function call, while automatically selecting the fastest evaluation order."
+    },
+    {
+        "function name": "numpy.vdot()",
+        "function description": "Return the dot product of two vectors."
+    },
+    {
+        "function name": "numpy.inner()",
+        "function description": "Inner product of two arrays."
+    },
+    {
+        "function name": "numpy.outer()",
+        "function description": "Compute the outer product of two vectors."
+    },
+    {
+        "function name": "numpy.matmul()",
+        "function description": "Matrix product of two arrays."
+    },
+    {
+        "function name": "numpy.tensordot()",
+        "function description": "Compute tensor dot product along specified axes."
+    },
+    {
+        "function name": "numpy.einsum()",
+        "function description": "Evaluates the Einstein summation convention on the operands."
+    },
+    {
+        "function name": "numpy.einsum_path()",
+        "function description": "Evaluates the lowest cost contraction order for an einsum expression by considering the creation of intermediate arrays."
+    },
+    {
+        "function name": "linalg.matrix_power()",
+        "function description": "Raise a square matrix to the (integer) power n."
+    },
+    {
+        "function name": "numpy.kron()",
+        "function description": "Kronecker product of two arrays."
+    },
+    {
+        "function name": "linalg.cholesky()",
+        "function description": "Cholesky decomposition."
+    },
+    {
+        "function name": "linalg.qr()",
+        "function description": "Compute the qr factorization of a matrix."
+    },
+    {
+        "function name": "linalg.svd()",
+        "function description": "Singular Value Decomposition."
+    },
+    {
+        "function name": "linalg.eig()",
+        "function description": "Compute the eigenvalues and right eigenvectors of a square array."
+    },
+    {
+        "function name": "linalg.eigh()",
+        "function description": "Return the eigenvalues and eigenvectors of a complex Hermitian (conjugate symmetric) or a real symmetric matrix."
+    },
+    {
+        "function name": "linalg.eigvals()",
+        "function description": "Compute the eigenvalues of a general matrix"
+    },
+    {
+        "function name": "linalg.eigvalsh()",
+        "function description": "Compute the eigenvalues of a complex Hermitian or real symmetric matrix."
+    },
+    {
+        "function name": "linalg.norm()",
+        "function description": "Matrix or vector norm."
+    },
+    {
+        "function name": "linalg.cond()",
+        "function description": "Compute the condition number of a matrix."
+    },
+    {
+        "function name": "linalg.det()",
+        "function description": "Compute the determinant of an array."
+    },
+    {
+        "function name": "linalg.matrix_rank()",
+        "function description": "Return matrix rank of array using SVD method"
+    },
+    {
+        "function name": "numpy.trace()",
+        "function description": "Return the sum along diagonals of the array."
+    },
+    {
+        "function name": "linalg.slogdet()",
+        "function description": "Compute the sign and (natural) logarithm of the determinant of an array."
+    },
+    {
+        "function name": "linalg.solve(a, b)",
+        "function description": "Solve a linear matrix equation, or system of linear scalar equations."
+    },
+    {
+        "function name": "linalg.tensorsolve(a, b, axes=None)",
+        "function description": "Solve the tensor equation a x = b for x."
+    },
+    {
+        "function name": "linalg.lstsq(a, b, rcond='warn')",
+        "function description": "Return the least-squares solution to a linear matrix equation."
+    },
+    {
+        "function name": "linalg.inv(a)",
+        "function description": "Compute the (multiplicative) inverse of a matrix."
+    },
+    {
+        "function name": "linalg.pinv(a, rcond=1e-15, hermitian=False)",
+        "function description": "Compute the (Moore-Penrose) pseudo-inverse of a matrix."
+    },
+    {
+        "function name": "linalg.tensorinv(a, ind=2)",
+        "function description": "Compute the \u2018inverse\u2019 of an N-dimensional array."
+    },
+    {
+        "function name": "numpy.all(a, axis=None, out=None, keepdims=<no value>, *, where=<no value>)",
+        "function description": "Test whether all array elements along a given axis evaluate to True."
+    },
+    {
+        "function name": "numpy.any(a, axis=None, out=None, keepdims=<no value>, *, where=<no value>)",
+        "function description": "Test whether any array element along a given axis evaluates to True."
+    },
+    {
+        "function name": "numpy.isfinite()",
+        "function description": "Test element-wise for finiteness (not infinity and not Not a Number)"
+    },
+    {
+        "function name": "numpy.isinf()",
+        "function description": "Test element-wise for positive or negative infinity."
+    },
+    {
+        "function name": "numpy.isnan()",
+        "function description": "Test element-wise for NaN and return result as a boolean array."
+    },
+    {
+        "function name": "numpy.isnat()",
+        "function description": "Test element-wise for NaT (not a time) and return result as a boolean array."
+    },
+    {
+        "function name": "numpy.isneginf(x, out=None)",
+        "function description": "Test element-wise for negative infinity, return result as bool array."
+    },
+    {
+        "function name": "numpy.isposinf(x, out=None)",
+        "function description": "Test element-wise for positive infinity, return result as bool array."
+    },
+    {
+        "function name": "numpy.iscomplex(x)",
+        "function description": "Returns a bool array, where True if input element is complex."
+    },
+    {
+        "function name": "numpy.iscomplexobj(x)",
+        "function description": "Check for a complex type or an array of complex numbers."
+    },
+    {
+        "function name": "numpy.isfortran(a)",
+        "function description": "Check if the array is Fortran contiguous but not C contiguous"
+    },
+    {
+        "function name": "numpy.isreal()",
+        "function description": "Returns a bool array, where True if input element is real"
+    },
+    {
+        "function name": "numpy.isrealobj()",
+        "function description": "Return True if x is a not complex type or an array of complex numbers."
+    },
+    {
+        "function name": "numpy.isscalar(element)",
+        "function description": "Returns True if the type of element is a scalar type."
+    },
+    {
+        "function name": "numpy.logical_and()",
+        "function description": "Compute the truth value of x1 AND x2 element-wise."
+    },
+    {
+        "function name": "numpy.logical_or()",
+        "function description": "Compute the truth value of x1 OR x2 element-wise."
+    },
+    {
+        "function name": "numpy.logical_not()",
+        "function description": "Compute the truth value of NOT x element-wise."
+    },
+    {
+        "function name": "numpy.logical_xor()",
+        "function description": "Compute the truth value of x1 XOR x2, element-wise."
+    },
+    {
+        "function name": "numpy.allclose()",
+        "function description": "Returns True if two arrays are element-wise equal within a tolerance."
+    },
+    {
+        "function name": "numpy.isclose()",
+        "function description": "Returns a boolean array where two arrays are element-wise equal within a tolerance."
+    },
+    {
+        "function name": "numpy.array_equal()",
+        "function description": "True if two arrays have the same shape and elements, False otherwise."
+    },
+    {
+        "function name": "numpy.array_equiv(a1, a2)",
+        "function description": "Returns True if input arrays are shape consistent and all elements equal."
+    },
+    {
+        "function name": "numpy.greater()",
+        "function description": "Return the truth value of (x1 > x2) element-wise."
+    },
+    {
+        "function name": "numpy.greater_equal()",
+        "function description": "Return the truth value of (x1 >= x2) element-wise."
+    },
+    {
+        "function name": "numpy.less()",
+        "function description": "Return the truth value of (x1 < x2) element-wise."
+    },
+    {
+        "function name": "numpy.less_equal()",
+        "function description": "Return the truth value of (x1 <= x2) element-wise"
+    },
+    {
+        "function name": "numpy.equal()",
+        "function description": "Return (x1 == x2) element-wise."
+    },
+    {
+        "function name": "numpy.not_equal()",
+        "function description": "Return (x1 != x2) element-wise."
+    },
+    {
+        "function name": "numpy.sin()",
+        "function description": "Trigonometric sine, element-wise."
+    },
+    {
+        "function name": "numpy.cos()",
+        "function description": "Cosine element-wise."
+    },
+    {
+        "function name": "numpy.tan()",
+        "function description": "Compute tangent element-wise."
+    },
+    {
+        "function name": "numpy.arcsin()",
+        "function description": "Inverse sine, element-wise."
+    },
+    {
+        "function name": "numpy.arccos()",
+        "function description": "Trigonometric inverse cosine, element-wise."
+    },
+    {
+        "function name": "numpy.arctan()",
+        "function description": "Trigonometric inverse tangent, element-wise."
+    },
+    {
+        "function name": "numpy.hypot()",
+        "function description": "Given the \u201clegs\u201d of a right triangle, return its hypotenuse."
+    },
+    {
+        "function name": "numpy.arctan2()",
+        "function description": "Element-wise arc tangent of x1/x2 choosing the quadrant correctly."
+    },
+    {
+        "function name": "numpy.degrees()",
+        "function description": "Convert angles from radians to degrees."
+    },
+    {
+        "function name": "numpy.radians()",
+        "function description": "Convert angles from degrees to radians."
+    },
+    {
+        "function name": "numpy.unwrap()",
+        "function description": "Unwrap by taking the complement of large deltas with respect to the period."
+    },
+    {
+        "function name": "numpy.deg2rad()",
+        "function description": "Convert angles from degrees to radians."
+    },
+    {
+        "function name": "numpy.rad2deg()",
+        "function description": "Convert angles from radians to degrees."
+    },
+    {
+        "function name": "numpy.sinh()",
+        "function description": "Hyperbolic sine, element-wise."
+    },
+    {
+        "function name": "numpy.cosh()",
+        "function description": "Hyperbolic cosine, element-wise."
+    },
+    {
+        "function name": "numpy.tanh()",
+        "function description": "Compute hyperbolic tangent element-wise."
+    },
+    {
+        "function name": "numpy.arcsinh()",
+        "function description": "Hyperbolic sine, element-wise."
+    },
+    {
+        "function name": "numpy.arccosh()",
+        "function description": "Hyperbolic cosine, element-wise."
+    },
+    {
+        "function name": "numpy.arctanh()",
+        "function description": "Compute hyperbolic tangent element-wise."
+    },
+    {
+        "function name": "numpy.arcsinh()",
+        "function description": "Inverse hyperbolic sine element-wise."
+    },
+    {
+        "function name": "numpy.arccosh()",
+        "function description": "Inverse hyperbolic cosine, element-wise."
+    },
+    {
+        "function name": "numpy.arctanh()",
+        "function description": "Inverse hyperbolic tangent element-wise."
+    },
+    {
+        "function name": "numpy.round()",
+        "function description": "Evenly round to the given number of decimals."
+    },
+    {
+        "function name": "numpy.around()",
+        "function description": "Round an array to the given number of decimals."
+    },
+    {
+        "function name": "numpy.rint()",
+        "function description": "Round elements of the array to the nearest integer"
+    },
+    {
+        "function name": "numpy.fix()",
+        "function description": "Round to nearest integer towards zero."
+    },
+    {
+        "function name": "numpy.floor()",
+        "function description": "Return the floor of the input, element-wise."
+    },
+    {
+        "function name": "numpy.ceil()",
+        "function description": "Return the ceiling of the input, element-wise."
+    },
+    {
+        "function name": "numpy.trunc()",
+        "function description": "Return the truncated value of the input, element-wise."
+    },
+    {
+        "function name": "numpy.prod()",
+        "function description": "Return the product of array elements over a given axis."
+    },
+    {
+        "function name": "numpy.sum()",
+        "function description": "Sum of array elements over a given axis."
+    },
+    {
+        "function name": "numpy.nanprod()",
+        "function description": "Return the product of array elements over a given axis treating Not a Numbers (NaNs) as ones."
+    },
+    {
+        "function name": "numpy.nansum()",
+        "function description": "Return the sum of array elements over a given axis treating Not a Numbers (NaNs) as zero."
+    },
+    {
+        "function name": "numpy.cumprod()",
+        "function description": "Return the cumulative product of elements along a given axis."
+    },
+    {
+        "function name": "numpy.cumsum()",
+        "function description": "Return the cumulative sum of the elements along a given axis."
+    },
+    {
+        "function name": "numpy.nancumprod()",
+        "function description": "Return the cumulative product of array elements over a given axis treating Not a Numbers (NaNs) as one. The cumulative product does not change when NaNs are encountered and leading NaNs are replaced by ones."
+    },
+    {
+        "function name": "numpy.nancumsum()",
+        "function description": "Return the cumulative sum of array elements over a given axis treating Not a Numbers (NaNs) as zero. The cumulative sum does not change when NaNs are encountered and leading NaNs are replaced by zeros."
+    },
+    {
+        "function name": "numpy.diff()",
+        "function description": "Calculate the n-th discrete difference along the given axis."
+    },
+    {
+        "function name": "numpy.ediff1d()",
+        "function description": "The differences between consecutive elements of an array."
+    },
+    {
+        "function name": "numpy.gradient()",
+        "function description": "Return the gradient of an N-dimensional array."
+    },
+    {
+        "function name": "numpy.cross()",
+        "function description": "Return the cross product of two (arrays of) vectors."
+    },
+    {
+        "function name": "numpy.trapz()",
+        "function description": "Integrate along the given axis using the composite trapezoidal rule."
+    },
+    {
+        "function name": "numpy.exp()",
+        "function description": "Calculate the exponential of all elements in the input array."
+    },
+    {
+        "function name": "numpy.expm1()",
+        "function description": "Calculate exp(x) - 1 for all elements in the array."
+    },
+    {
+        "function name": "numpy.exp2()",
+        "function description": "Calculate 2**p for all p in the input array."
+    },
+    {
+        "function name": "numpy.log()",
+        "function description": "Natural logarithm, element-wise."
+    },
+    {
+        "function name": "numpy.log10()",
+        "function description": "Return the base 10 logarithm of the input array, element-wise."
+    },
+    {
+        "function name": "numpy.log2()",
+        "function description": "Return the base 2 logarithm of the input array, element-wise."
+    },
+    {
+        "function name": "numpy.log1p()",
+        "function description": "Return the natural logarithm of one plus the input array, element-wise."
+    },
+    {
+        "function name": "numpy.logaddexp()",
+        "function description": "Logarithm of the sum of exponentiations of the inputs."
+    },
+    {
+        "function name": "numpy.logaddexp2()",
+        "function description": "Logarithm of the sum of exponentiations of the inputs in base-2."
+    },
+    {
+        "function name": "numpy.i0()",
+        "function description": "Modified Bessel function of the first kind, order 0."
+    },
+    {
+        "function name": "numpy.sinc()",
+        "function description": "Return the normalized sinc function."
+    },
+    {
+        "function name": "numpy.signbit()",
+        "function description": "Returns element-wise True where signbit is set (less than zero)."
+    },
+    {
+        "function name": "numpy.copysign()",
+        "function description": "Change the sign of x1 to that of x2, element-wise."
+    },
+    {
+        "function name": "numpy.frexp()",
+        "function description": "Decompose the elements of x into mantissa and twos exponent."
+    },
+    {
+        "function name": "numpy.ldexp()",
+        "function description": "Returns x1 * 2**x2, element-wise."
+    },
+    {
+        "function name": "numpy.nextafter()",
+        "function description": "Return the next floating-point value after x1 towards x2, element-wise."
+    },
+    {
+        "function name": "numpy.spacing()",
+        "function description": "Return the distance between x and the nearest adjacent number."
+    },
+    {
+        "function name": "numpy.lcm()",
+        "function description": "Returns the lowest common multiple of |x1| and |x2|"
+    },
+    {
+        "function name": "numpy.gcd()",
+        "function description": "Returns the greatest common divisor of |x1| and |x2|"
+    },
+    {
+        "function name": "numpy.add()",
+        "function description": "Add arguments element-wise"
+    },
+    {
+        "function name": "numpy.reciprocal()",
+        "function description": "Return the reciprocal of the argument, element-wise"
+    },
+    {
+        "function name": "numpy.positive()",
+        "function description": "Numerical positive, element-wise."
+    },
+    {
+        "function name": "numpy.negative()",
+        "function description": "Numerical negative, element-wise"
+    },
+    {
+        "function name": "numpy.multiply()",
+        "function description": "Multiply arguments element-wise."
+    },
+    {
+        "function name": "numpy.divide()",
+        "function description": "Divide arguments element-wise"
+    },
+    {
+        "function name": "numpy.power()",
+        "function description": "First array elements raised to powers from second array, element-wise."
+    },
+    {
+        "function name": "numpy.subtract()",
+        "function description": "Subtract arguments, element-wise."
+    },
+    {
+        "function name": "numpy.true_divide()",
+        "function description": "Divide arguments element-wise."
+    },
+    {
+        "function name": "numpy.floor_divide()",
+        "function description": "Return the largest integer smaller or equal to the division of the inputs. It is equivalent to the Python // operator and pairs with the Python % (remainder), function so that a = a % b + b * (a // b) up to roundoff."
+    },
+    {
+        "function name": "numpy.float_power()",
+        "function description": "First array elements raised to powers from second array, element-wise."
+    },
+    {
+        "function name": "numpy.fmod()",
+        "function description": "Returns the element-wise remainder of division."
+    },
+    {
+        "function name": "numpy.mod()",
+        "function description": "Returns the element-wise remainder of division."
+    },
+    {
+        "function name": "numpy.modf()",
+        "function description": "Return the fractional and integral parts of an array, element-wise."
+    },
+    {
+        "function name": "numpy.remainder()",
+        "function description": "Returns the element-wise remainder of division."
+    },
+    {
+        "function name": "numpy.divmod()",
+        "function description": "Return element-wise quotient and remainder simultaneously."
+    },
+    {
+        "function name": "numpy.angle()",
+        "function description": "Return the angle of the complex argument."
+    },
+    {
+        "function name": "numpy.real()",
+        "function description": "Return the real part of the complex argument."
+    },
+    {
+        "function name": "numpy.imag()",
+        "function description": "Return the imaginary part of the complex argument."
+    },
+    {
+        "function name": "numpy.conj()",
+        "function description": "Return the complex conjugate, element-wise."
+    },
+    {
+        "function name": "numpy.conjugate()",
+        "function description": "Return the complex conjugate, element-wise."
+    },
+    {
+        "function name": "numpy.maximum()",
+        "function description": "Element-wise maximum of array elements."
+    },
+    {
+        "function name": "numpy.max()",
+        "function description": "Return the maximum of an array or maximum along an axis."
+    },
+    {
+        "function name": "numpy.amax()",
+        "function description": "Return the maximum of an array or maximum along an axis."
+    },
+    {
+        "function name": "numpy.fmax()",
+        "function description": "Element-wise maximum of array elements."
+    },
+    {
+        "function name": "numpy.nanmax()",
+        "function description": "Return the maximum of an array or maximum along an axis, ignoring any NaNs. When all-NaN slices are encountered a RuntimeWarning is raised and NaN is returned for that slice."
+    },
+    {
+        "function name": "numpy.minimum()",
+        "function description": "Element-wise minimum of array elements."
+    },
+    {
+        "function name": "numpy.min()",
+        "function description": "Return the minimum of an array or minimum along an axis."
+    },
+    {
+        "function name": "numpy.amin()",
+        "function description": "Return the minimum of an array or minimum along an axis."
+    },
+    {
+        "function name": "numpy.fmin()",
+        "function description": "Element-wise minimum of array elements."
+    },
+    {
+        "function name": "numpy.nanmin()",
+        "function description": "Return minimum of an array or minimum along an axis, ignoring any NaNs. When all-NaN slices are encountered a RuntimeWarning is raised and Nan is returned for that slice."
+    },
+    {
+        "function name": "numpy.convolve()",
+        "function description": "Returns the discrete, linear convolution of two one-dimensional sequences."
+    },
+    {
+        "function name": "numpy.clip()",
+        "function description": "Clip (limit) the values in an array."
+    },
+    {
+        "function name": "numpy.sqrt()",
+        "function description": "Return the non-negative square-root of an array, element-wise."
+    },
+    {
+        "function name": "numpy.cbrt()",
+        "function description": "Return the cube-root of an array, element-wise."
+    },
+    {
+        "function name": "numpy.square()",
+        "function description": "Return the element-wise square of the input."
+    },
+    {
+        "function name": "numpy.absolute()",
+        "function description": "Calculate the absolute value element-wise."
+    },
+    {
+        "function name": "numpy.fabs()",
+        "function description": "Compute the absolute values element-wise."
+    },
+    {
+        "function name": "numpy.sign()",
+        "function description": "Returns an element-wise indication of the sign of a number."
+    },
+    {
+        "function name": "numpy.heaviside()",
+        "function description": "Compute the Heaviside step function."
+    },
+    {
+        "function name": "numpy.nan_to_num()",
+        "function description": "Replace NaN with zero and infinity with large finite numbers (default behaviour) or with the numbers defined by the user using the nan, posinf and/or neginf keywords."
+    },
+    {
+        "function name": "numpy.real_if_close()",
+        "function description": "If input is complex with all imaginary parts close to zero, return real parts."
+    },
+    {
+        "function name": "numpy.interp()",
+        "function description": "One-dimensional linear interpolation for monotonically increasing sample points."
+    }
+]
