@@ -80,3 +80,19 @@
   font-family: 'DM Serif Display', serif;
   font-family: 'Josefin Sans', sans-serif;
 }
+
+a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect */
+a:hover {
+  color: #2980b9;
+}
+
+/* Visited links - Same style as default */
+a:visited {
+  color: #3498db;
+}
