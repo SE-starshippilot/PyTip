@@ -46,7 +46,7 @@ function App() {
     <>
       <div className="bg_container">
         <img src="/background.jpg" className="bg_image"/>
-        <div className="app_name">PyHint</div>
+        <div className="app_name">PyTip</div>
         <div className="app_description">A minimalistic search suggestion for Python Libraries</div>
       </div>
       <div   id="search" >
